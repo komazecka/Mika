@@ -69,20 +69,21 @@
     .layer-top {
       bottom: 60px;
       height: 30px;
-      background: #0f172a; /* Tamno plava */
+      background: #0f172a; /* Tamno plavi sloj */
       animation-delay: 0.8s;
     }
 
+    /* Manji šlag prilagođen širini sloja */
     .icing {
       position: absolute;
       top: 10px;
-      left: 0;
-      width: 100%;
-      height: 22px;
+      left: 5%;
+      width: 90%; /* Uzakiji od cele torte */
+      height: 16px;
       background: #ffffff;
-      border-radius: 10px 10px 12px 12px;
+      border-radius: 6px 6px 8px 8px;
       z-index: 2;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.25);
       animation: dropLayer 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.27) backwards;
       animation-delay: 1.1s;
     }
@@ -175,3 +176,4 @@
 
 </body>
 </html>
+
